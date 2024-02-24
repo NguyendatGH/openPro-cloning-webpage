@@ -270,3 +270,154 @@
   width: 100%;
   object-fit: cover;
 }
+
+.feedback__cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(155, 169, 180);
+}
+.feedback__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.feedback__heading h1 {
+  color: rgb(226, 232, 237);
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+.feedback__heading p {
+  text-align: center;
+  color: rgb(155, 169, 180);
+  font-size: 20px;
+  font-weight: 400;
+}
+.feedback__floatingCardList {
+  margin: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.card {
+  background-color: rgb(33 35 38);
+  padding: 20px 30px;
+}
+.card__heading {
+  width: 100%;
+  position: relative;
+  padding-bottom: 26px;
+}
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.decorationItem {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 36px;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card p {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.4rem;
+  color: rgb(178, 191, 201);
+  letter-spacing: 1.2px;
+}
+.card__divider {
+  margin: 24px 0;
+  width: 100%;
+  height: 0.1px;
+  background-color: rgb(51, 54, 58);
+}
+.card__moreInfor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.author {
+  color: rgb(217 227 234);
+  padding-right: 6px;
+}
+.space {
+  color: rgb(51, 54, 58);
+  padding-right: 6px;
+}
+.infor__brand a {
+  color: rgb(93 93 255);
+  text-decoration: none;
+}
+.infor__brand a:hover {
+  color: rgb(217 227 234);
+}
+
+.userContactArea {
+  width: 100%;
+  position: relative;
+}
+.userContact {
+  background-color: rgb(93, 93, 255);
+  padding: 60px 50px;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+.decorationCard {
+  position: absolute;
+  right: 0;
+}
+.userContact__left h3 {
+  font-family: Roboto;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.userContact__left p {
+  font-family: Roboto;
+  font-size: 18px;
+  color: rgb(226, 225, 255);
+}
+.userContact__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.userContact__right input {
+  width: 60%;
+  padding: 14px 14px;
+  background-color: rgb(75, 74, 207);
+  border: 1px solid rgb(196, 195, 225);
+  color: white;
+  font-size: 18px;
+}
+
+.userContact__right input::placeholder {
+  border-color: rgb(196, 195, 225);
+}
+.userContact__right input:focus {
+  outline: none;
+  font-size: 18px;
+}
+.subscibeBtn {
+  margin-left: 10px;
+  width: 30%;
+  padding: 14px 14px;
+  color: rgb(93, 93, 255);
+  font-size: 18px;
+  font-family: Roboto;
+}
