@@ -28,6 +28,7 @@
   position: absolute;
   top: 530px;
   left: 20px;
+  cursor: pointer;
 }
 .container {
   padding: 0 120px;
@@ -50,6 +51,7 @@
 .logoBrand {
   width: 32px;
   height: 32px;
+  cursor: pointer;
 }
 
 .userInterface {
@@ -117,8 +119,16 @@
 .startLearn {
   background-color: rgb(93 93 255);
 }
+.startLearn:hover {
+  background-color: rgb(55, 55, 181);
+  transition: background-color 0.5s ease;
+}
 .LearnMore {
   background-color: rgb(37, 40, 44);
+}
+.LearnMore:hover {
+  background-color: rgb(66, 69, 72);
+  transition: background-color 0.5s ease;
 }
 .video {
   margin-top: 10px;
@@ -438,4 +448,75 @@
   color: rgb(93, 93, 255);
   font-size: 18px;
   font-family: Roboto;
+}
+.section_end_grid {
+  color: white;
+  width: 100%;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.section_endLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+.section_endLeft p {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: rgb(155 169 180);
+  font-family: Roboto;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.item {
+  font-size: 14px;
+  color: rgb(155 169 180);
+}
+.line:hover {
+  color: white;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: -50px;
+  font-size: 14px;
+  color: rgb(155, 169, 180);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 100px;
+}
+.footer p {
+  font-size: 14px;
+}
+.socialMedia_contactList {
+  list-style: none;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(37, 41, 48, 0.5);
+  fill: rgb(75, 74, 207);
+  cursor: pointer;
+}
+.icon:hover {
+  cursor: pointer;
+  fill: white;
+  background-color: rgb(104, 104, 226);
+  transition: fill 0.1s;
+  transition: background-color 0.1s;
 }
