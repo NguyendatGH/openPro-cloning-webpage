@@ -241,7 +241,11 @@ export const Stategy = () => {
           </div>
         </div>
       </div>
-      <div className="divider"></div>
+      <div
+        className="divider"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+      ></div>
     </>
   );
 };

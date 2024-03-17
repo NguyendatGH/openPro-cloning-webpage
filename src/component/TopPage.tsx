@@ -1,7 +1,7 @@
 export const TopPage = () => {
   return (
     <>
-      <div className="header">
+      <div className="header" data-aos="fade-in" data-aos-duration="2000">
         <div className="logo">
           <svg
             className="logoBrand"

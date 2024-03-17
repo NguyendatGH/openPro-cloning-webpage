@@ -1,12 +1,21 @@
 import avatarOne from "../assets/img/testimonial-01.jpg";
 import avatarTwo from "../assets/img/testimonial-02.jpg";
 import avatarThree from "../assets/img/testimonial-03.jpg";
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export const UserFeedback = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className="feedback__cards">
-        <div className="feedback__heading">
+        <div
+          className="feedback__heading"
+          data-aos="zoom-in-up"
+          data-aos-duration="3000"
+        >
           <h1>Don't take our word for it</h1>
           <p>
             Vitae aliquet nec ullamcorper sit amet risus nullam eget felis
@@ -14,7 +23,11 @@ export const UserFeedback = () => {
             <br /> nulla at volutpat diam ut venenatis tellus—in ornare.
           </p>
         </div>
-        <div className="feedback__floatingCardList">
+        <div
+          className="feedback__floatingCardList"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div className="card">
             <div className="card__heading">
               <div className="avatar">

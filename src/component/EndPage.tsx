@@ -1,7 +1,18 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 export const EndPage = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-      <div className="section_end_grid">
+      <div
+        className="section_end_grid"
+        data-aos="fade-in"
+        data-aos-duration="2000"
+      >
         <div className="section_endLeft">
           <div className="logo">
             <svg
@@ -20,6 +31,7 @@ export const EndPage = () => {
             and publishing industries for previewing layouts and visual mockups.
           </p>
         </div>
+
         <div className="">
           <div className="section ProductLst">
             <p className="product">Products</p>

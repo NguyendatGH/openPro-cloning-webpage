@@ -1,6 +1,16 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 export const UserContact = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="userContactArea">
+    <div
+      className="userContactArea"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       <svg
         className="decorationCard"
         width="238"
