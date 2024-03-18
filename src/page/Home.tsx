@@ -43,7 +43,7 @@ function App() {
             ></path>
           </svg>
         </div>
-        <div className="video_backGround">
+        <div className="svg_background">
           <svg
             className="bgVideo_item"
             width="564"
