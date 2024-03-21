@@ -1,11 +1,11 @@
 import "./Home.css";
-import { TopPage } from "../component/TopPage";
-import { Banner } from "../component/Banner";
-import { Feature } from "../component/Feature";
-import { Stategy } from "../component/Stategy";
-import { UserFeedback } from "../component/UserFeedback";
-import { UserContact } from "../component/UserContact";
-import { EndPage } from "../component/EndPage";
+import { TopPage } from "../../component/TopPage";
+import { Banner } from "../../component/Banner";
+import { Feature } from "../../component/Feature";
+import { Stategy } from "../../component/Stategy";
+import { UserFeedback } from "../../component/UserFeedback";
+import { UserContact } from "../../component/UserContact";
+import { EndPage } from "../../component/EndPage";
 
 function App() {
   return (

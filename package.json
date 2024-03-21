@@ -15,9 +15,11 @@
     "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
     "@mui/styled-engine-sc": "^6.0.0-alpha.17",
+    "@react-hook/window-size": "^3.1.1",
     "@reacticons/ionicons": "^7.1.0",
     "aos": "^2.3.4",
     "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
     "styled-components": "^6.1.8"

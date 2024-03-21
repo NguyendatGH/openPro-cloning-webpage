@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.backGroundLogin {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    135deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(4, 0, 255, 1) 0%,
+    rgba(0, 151, 255, 1) 0%,
+    rgba(222, 145, 255, 1) 87%
+  );
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Login_card {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 400px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgb(46, 48, 62);
+}
+
+.left_loginCard {
+  width: 70%;
+  height: auto;
+  box-sizing: border-box;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right_loginCard {
+  width: 30%;
+  padding: 30px 40px;
+  background-color: white;
+}
+.wrapper {
+  color: rgb(132, 117, 206);
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.wrapper h3 {
+  text-align: center;
+}
+.userInfor {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.user {
+  width: 100%;
+  box-sizing: border-box;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+.user img {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.user span {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+.inputField {
+  width: 150px;
+  padding: 5px 20px;
+  border-radius: 12px;
+  border: 1px solid white;
+  background-color: rgb(233, 231, 255);
+}
+.inputField:focus {
+  outline: none;
+}
+.submitArea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.register {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 10px;
+  transition: transform 0.2s;
+}
+.register:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.register p {
+  font-family: Roboto;
+  font-size: 12.25px;
+}
+.LoginBtn {
+  width: 87%;
+  padding: 6px 14px;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 151, 255, 1),
+    rgba(222, 145, 255, 1)
+  );
+  border-radius: 20px;
+  border: none;
+  transition: transform 0.2s;
+}
+
+.LoginBtn:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+.linkToRegister {
+  color: rgb(124, 124, 227);
+}
+.third-party {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+}
+.third-party span {
+  font-size: 14px;
+}
+.social_platformList {
+  display: flex;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.social_platformIcon {
+  transition: transform 0.2s;
+}
+.social_platformIcon:hover {
+  transform: translateY(-2px) scale(1.1);
+}
