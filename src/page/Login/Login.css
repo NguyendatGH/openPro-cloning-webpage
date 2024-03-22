@@ -94,6 +94,7 @@
   border-radius: 12px;
   border: 1px solid white;
   background-color: rgb(233, 231, 255);
+  cursor: pointer;
 }
 .inputField:focus {
   outline: none;

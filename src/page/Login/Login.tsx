@@ -61,16 +61,36 @@ function Login() {
                 <span>Login with: </span>
                 <ul className="social_platformList">
                   <li className="social_platformIcon">
-                    <IonIcon name="logo-google"></IonIcon>
+                    <a
+                      style={{ textDecoration: "none", color: "inherit" }}
+                      href="https://accounts.google.com/v3/signin/identifier?ifkv=ARZ0qKIoG1N-cK9nBl1oJpdubVLDXfALKZ7jzyRbEkq54NV7RXUa6v1-mE0jiqyedFECv9hbgssPzw&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1693570716%3A1711120790652460&theme=mn&ddm=0"
+                    >
+                      <IonIcon name="logo-google"></IonIcon>
+                    </a>
                   </li>
                   <li className="social_platformIcon">
-                    <IonIcon name="logo-github"></IonIcon>
+                    <a
+                      style={{ textDecoration: "none", color: "inherit" }}
+                      href="https://github.com/login"
+                    >
+                      <IonIcon name="logo-github"></IonIcon>
+                    </a>
                   </li>
                   <li className="social_platformIcon">
-                    <IonIcon name="logo-linkedin"></IonIcon>
+                    <a
+                      style={{ textDecoration: "none", color: "inherit" }}
+                      href="https://www.linkedin.com/login"
+                    >
+                      <IonIcon name="logo-linkedin"></IonIcon>
+                    </a>
                   </li>
                   <li className="social_platformIcon">
-                    <IonIcon name="logo-apple"></IonIcon>
+                    <a
+                      style={{ textDecoration: "none", color: "inherit" }}
+                      href="https://www.icloud.com/"
+                    >
+                      <IonIcon name="logo-apple"></IonIcon>
+                    </a>
                   </li>
                 </ul>
               </div>

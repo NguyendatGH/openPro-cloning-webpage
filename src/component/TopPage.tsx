@@ -1,8 +1,14 @@
 import { useNavigate } from "react-router-dom";
-
 export const TopPage = () => {
   const navigate = useNavigate();
 
+  const handleOption = (action: string) => {
+    if (action === "login") {
+      navigate("/login");
+    } else if (action === "register") {
+      navigate("/register");
+    }
+  };
   return (
     <>
       <div className="header" data-aos="fade-in" data-aos-duration="2000">
@@ -19,10 +25,10 @@ export const TopPage = () => {
           </svg>
         </div>
         <div className="userInterface">
-          <div className="signIn" onClick={() => navigate("/login")}>
+          <div className="signIn" onClick={() => handleOption("login")}>
             Sign In
           </div>
-          <div className="signUp" onClick={() => navigate("/register")}>
+          <div className="signUp" onClick={() => handleOption("register")}>
             Sign Up
           </div>
         </div>

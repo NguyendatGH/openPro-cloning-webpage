@@ -1,6 +1,112 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
-  background-color: aliceblue;
-  /* /* background-image: none; */
-/* }  */
+  font-family: Popins;
+}
+
+.register_main {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(4, 0, 255, 1) 0%,
+    rgba(222, 145, 255, 1) 0%,
+    rgba(157, 147, 255, 1) 55%,
+    rgba(116, 148, 255, 1) 100%,
+    rgba(0, 151, 255, 1) 100%
+  );
+  position: relative;
+  backdrop-filter: blur(20px);
+}
+.register_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding: 40px 40px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgb(46, 48, 62);
+  border-radius: 20px;
+}
+.wrapper {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: Roboto;
+  margin-bottom: 30px;
+}
+.userName {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.userName input {
+  width: 100px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+.userName input:focus {
+  outline: none;
+}
+input {
+  width: 94%;
+  padding: 8px 8px;
+  border-radius: 20px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.agreeTerm {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.checkBox {
+  width: 14px;
+  height: 16px;
+}
+.linkTerms {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(249, 189, 76);
+}
+.submitBtn {
+  width: 87%;
+  padding: 6px 14px;
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    135deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(98, 136, 251) 0%,
+    rgb(243, 167, 215) 100%
+  ); */
+  background-color: rgb(121, 216, 183);
+  border-radius: 20px;
+  border: none;
+  transition: transform 0.2s;
+}
+.submitBtn:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
